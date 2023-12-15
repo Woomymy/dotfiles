@@ -41,6 +41,9 @@ dotfiles:
   f_profile:
     src: profile
     dst: ~/.profile
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
 profiles:
   shallot:
     dotfiles:
@@ -56,3 +59,4 @@ profiles:
     - f_tmux.conf
     - d_waybar
     - f_profile
+    - d_nvim
