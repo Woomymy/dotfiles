@@ -15,6 +15,9 @@ dotfiles:
   f_theme.rasi:
     src: config/rofi/theme.rasi
     dst: ~/.config/rofi/theme.rasi
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
 profiles:
   shallot:
     dotfiles:
@@ -22,3 +25,4 @@ profiles:
     - d_functions
     - f_config.rasi
     - f_theme.rasi
+    - f_bashrc
