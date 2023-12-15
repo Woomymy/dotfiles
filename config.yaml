@@ -27,6 +27,11 @@ dotfiles:
   f_config:
     src: ssh/config
     dst: ~/.ssh/config
+  d_bin:
+    src: bin
+    dst: ~/.bin
+    upignore:
+    - '*/__pycache__'
 profiles:
   shallot:
     dotfiles:
@@ -38,3 +43,4 @@ profiles:
     - f_dunstrc.template
     - f_hyprland.conf
     - f_config
+    - d_bin

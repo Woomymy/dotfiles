@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+MUSIC_SOURCE="$(jq -r ".music_source" "${HOME}/.bin/config.json")" # Telegram desktop is my music player
+
+is_playing() {
+    if ! playerctl -p "${MUSIC_SOURCE}" status &>/dev/null; then
+        return 1 # Music player is not even started
+    fi
+
+    STATUS="$(playerctl -p "${MUSIC_SOURCE}" status)"
+    [[ "${STATUS}" == "Playing" ]] && return 0
+
+    return 1
+}
+
+case "${1}" in
+"--icon")
+    if is_playing; then
+        echo -n "ﱘ"
+    else
+        if playerctl -p "${MUSIC_SOURCE}" status &>/dev/null; then
+            echo -n "󰝚"
+        else
+            echo -n ""
+        fi
+    fi
+    ;;
+"--toggle")
+    # Prevent returning errors
+    playerctl -p "${MUSIC_SOURCE}" play-pause 2>/dev/null || true
+    ;;
+"--get-info")
+    # Prevent returning errors
+    (is_playing &&
+        playerctl -p "${MUSIC_SOURCE}" metadata --format "{{ status }} {{ artist }} - {{ title }} ({{ duration(position) }}/{{ duration(mpris:length)  }})" 2>/dev/null) || true
+    ;;
+"--alt-info")
+    # Prevent returning errors
+    (is_playing &&
+        playerctl -p "${MUSIC_SOURCE}" metadata --format "󰝚 {{ artist }} - {{ title }} ") 2>/dev/null || true
+    ;;
+"--get-player-state")
+    if playerctl -p "${MUSIC_SOURCE}" status &>/dev/null; then
+        echo "Available"
+    else
+        echo "Unavailable"
+    fi
+    ;;
+*)
+    echo "Invalid argument"
+    exit 1
+    ;;
+esac
