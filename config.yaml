@@ -44,6 +44,9 @@ dotfiles:
   d_nvim:
     src: config/nvim
     dst: ~/.config/nvim
+  f_alacritty.yml:
+    src: config/alacritty/alacritty.yml
+    dst: ~/.config/alacritty/alacritty.yml
 profiles:
   shallot:
     dotfiles:
@@ -60,3 +63,4 @@ profiles:
     - d_waybar
     - f_profile
     - d_nvim
+    - f_alacritty.yml
