@@ -1,0 +1,6 @@
+# Rofi fork with wayland support
+gui-apps/rofi-wayland
+
+# Wayland Xrandr alternative
+gui-apps/wlr-randr
+

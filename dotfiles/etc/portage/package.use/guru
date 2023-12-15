@@ -1,0 +1,5 @@
+# CoreCTRL
+dev-qt/qtcharts qml
+
+# Rofi
+gui-apps/rofi-wayland drun windowmode

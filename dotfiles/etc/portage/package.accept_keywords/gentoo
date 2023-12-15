@@ -1,0 +1,85 @@
+# Alacritty
+x11-terms/alacritty
+
+# Android
+dev-util/android-studio
+sys-boot/vboot-utils
+
+# CPU-X
+dev-libs/libcpuid
+sys-apps/cpu-x
+
+# CoreCTRL
+dev-cpp/units
+dev-cpp/easyloggingpp
+app-misc/corectrl
+
+# Duf
+sys-fs/duf
+dev-util/cargo-ebuild
+
+# EROFS filesystem tools
+sys-fs/erofs-utils
+
+# Github CLI
+dev-util/github-cli
+
+# Hyprland (plugins, contrib and portal comes from GURU)
+x11-libs/libdrm
+dev-libs/wayland-protocols
+media-libs/libdisplay-info
+dev-libs/libliftoff
+dev-libs/hyprland-protocols
+gui-wm/hyprland
+dev-cpp/sdbus-c++
+gui-libs/xdg-desktop-portal-hyprland
+gui-apps/hyprland-plugins
+gui-wm/hyprland-contrib
+
+# Hyperpicker
+gui-apps/hyprpicker
+
+# OBS
+media-video/obs-studio
+
+# Pip
+dev-python/pip
+
+# Prism
+games-action/prismlauncher
+
+# Repo
+dev-vcs/repo
+
+# Rust
+dev-util/rustup
+
+# Scrcpy
+app-mobilephone/scrcpy
+
+# Steam flatpak UDEV Rules
+games-util/game-device-udev-rules
+
+# Syncthing
+net-p2p/syncthing
+
+# USBIp
+net-misc/usbip
+
+# Use latest dracut
+sys-kernel/dracut
+
+# VSCode
+app-editors/vscode
+
+# Waybar
+dev-libs/date
+gui-apps/waybar
+
+# Xonotic
+games-fps/xonotic
+
+# Zig
+app-eselect/eselect-zig
+dev-lang/zig
+

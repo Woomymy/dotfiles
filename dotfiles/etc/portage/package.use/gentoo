@@ -1,0 +1,69 @@
+# Cups
+net-print/cups zeroconf
+
+# Clutter
+media-libs/clutter egl
+
+# Firefox
+media-libs/libsdl2 gles2
+
+# fish
+dev-libs/libpcre2 pcre32
+
+# GCC
+sys-devel/gcc pgo lto
+
+# GNOME Music
+media-libs/libmediaart gtk -qt5
+media-plugins/grilo-plugins tracker
+
+# GVFS Support for samba & nfs
+gnome-base/gvfs samba nfs zeroconf
+
+# Hyprland
+gui-libs/wlroots x11-backend
+dev-qt/qtbase egl
+gui-apps/swaybg gdk-pixbuf
+
+# KDEConnect
+dev-qt/qtmultimedia qml
+kde-frameworks/kconfig qml
+
+# LLVM (for zig)
+sys-devel/lld zstd
+sys-devel/llvm zstd
+
+# Python
+dev-lang/python tk
+
+# Pipewire
+media-video/pipewire sound-server
+
+# QEMU
+net-misc/spice-gtk usbredir
+net-dns/dnsmasq script
+net-libs/gnutls pkcs11 tools
+
+# Firefox
+media-libs/libvpx postproc
+
+# QGnomePlatform
+kde-frameworks/sonnet qml
+
+# SSH libedit (sftp completion)
+net-misc/openssh libedit
+
+# System
+sys-apps/systemd cryptsetup gnuefi
+sys-fs/lvm2 lvm
+
+# Telegram
+media-video/ffmpeg vpx opus
+sys-libs/zlib minizip
+
+# Waybar
+gui-apps/waybar mpris tray
+
+# XDG Desktop portal screenshare
+sys-apps/xdg-desktop-portal screencast
+

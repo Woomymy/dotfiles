@@ -1,0 +1,19 @@
+# created by eselect-repo
+
+[woomy-overlay]
+location = /var/db/repos/woomy-overlay
+sync-type = git
+sync-uri = https://github.com/Woomymy/woomy-overlay.git
+
+[guru]
+location = /var/db/repos/guru
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/guru.git
+
+[local]
+location = /var/db/repos/local
+
+[steam-overlay]
+location = /var/db/repos/steam-overlay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/steam-overlay.git

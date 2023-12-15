@@ -47,6 +47,33 @@ dotfiles:
   f_alacritty.yml:
     src: config/alacritty/alacritty.yml
     dst: ~/.config/alacritty/alacritty.yml
+  d_repos.conf:
+    src: etc/portage/repos.conf
+    dst: /etc/portage/repos.conf
+  f_make.conf:
+    src: etc/portage/make.conf
+    dst: /etc/portage/make.conf
+  d_env:
+    src: etc/portage/env
+    dst: /etc/portage/env
+  d_package.accept_keywords:
+    src: etc/portage/package.accept_keywords
+    dst: /etc/portage/package.accept_keywords
+  d_package.env:
+    src: etc/portage/package.env
+    dst: /etc/portage/package.env
+  d_package.use:
+    src: etc/portage/package.use
+    dst: /etc/portage/package.use
+  d_patches:
+    src: etc/portage/patches
+    dst: /etc/portage/patches
+  d_postsync.d:
+    src: etc/portage/postsync.d
+    dst: /etc/portage/postsync.d
+  f_world:
+    src: var/lib/portage/world
+    dst: /var/lib/portage/world
 profiles:
   shallot:
     dotfiles:
@@ -64,3 +91,12 @@ profiles:
     - f_profile
     - d_nvim
     - f_alacritty.yml
+    - d_repos.conf
+    - f_make.conf
+    - d_env
+    - d_package.accept_keywords
+    - d_package.env
+    - d_package.use
+    - d_patches
+    - d_postsync.d
+    - f_world
