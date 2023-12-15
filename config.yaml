@@ -38,6 +38,9 @@ dotfiles:
   d_waybar:
     src: config/waybar
     dst: ~/.config/waybar
+  f_profile:
+    src: profile
+    dst: ~/.profile
 profiles:
   shallot:
     dotfiles:
@@ -52,3 +55,4 @@ profiles:
     - d_bin
     - f_tmux.conf
     - d_waybar
+    - f_profile
