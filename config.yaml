@@ -9,8 +9,16 @@ dotfiles:
   d_functions:
     src: config/fish/functions
     dst: ~/.config/fish/functions
+  f_config.rasi:
+    src: config/rofi/config.rasi
+    dst: ~/.config/rofi/config.rasi
+  f_theme.rasi:
+    src: config/rofi/theme.rasi
+    dst: ~/.config/rofi/theme.rasi
 profiles:
   shallot:
     dotfiles:
     - f_config.fish
     - d_functions
+    - f_config.rasi
+    - f_theme.rasi

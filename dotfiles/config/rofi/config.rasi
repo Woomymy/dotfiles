@@ -1,0 +1,10 @@
+@theme "theme.rasi"
+
+configration {
+    modi: "drun";
+    icon-theme: "Papirus";
+    show-icons: true;
+    drun-display: "Applications";
+    drun-display-format: "{name}";
+}
+
