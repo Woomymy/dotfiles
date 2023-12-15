@@ -1,11 +1,16 @@
 config:
   backup: true
-  banner: true
   create: true
   dotpath: dotfiles
-  keepdot: false
-  link_dotfile_default: nolink
-  link_on_import: nolink
-  longkey: false
 dotfiles:
+  f_config.fish:
+    src: config/fish/config.fish
+    dst: ~/.config/fish/config.fish
+  d_functions:
+    src: config/fish/functions
+    dst: ~/.config/fish/functions
 profiles:
+  shallot:
+    dotfiles:
+    - f_config.fish
+    - d_functions
