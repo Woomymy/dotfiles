@@ -21,6 +21,9 @@ dotfiles:
   f_dunstrc.template:
     src: config/dunst/dunstrc.template
     dst: ~/.config/dunst/dunstrc.template
+  f_hyprland.conf:
+    src: config/hypr/hyprland.conf
+    dst: ~/.config/hypr/hyprland.conf
 profiles:
   shallot:
     dotfiles:
@@ -30,3 +33,4 @@ profiles:
     - f_theme.rasi
     - f_bashrc
     - f_dunstrc.template
+    - f_hyprland.conf
