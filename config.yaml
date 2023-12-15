@@ -74,6 +74,9 @@ dotfiles:
   f_world:
     src: var/lib/portage/world
     dst: /var/lib/portage/world
+  f_linux_config:
+    src: usr/src/linux/.config
+    dst: /usr/src/linux/.config
 profiles:
   shallot:
     dotfiles:
@@ -100,3 +103,4 @@ profiles:
     - d_patches
     - d_postsync.d
     - f_world
+    - f_linux_config
