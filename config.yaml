@@ -32,6 +32,9 @@ dotfiles:
     dst: ~/.bin
     upignore:
     - '*/__pycache__'
+  f_tmux.conf:
+    src: tmux.conf
+    dst: ~/.tmux.conf
 profiles:
   shallot:
     dotfiles:
@@ -44,3 +47,4 @@ profiles:
     - f_hyprland.conf
     - f_config
     - d_bin
+    - f_tmux.conf
