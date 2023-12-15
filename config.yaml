@@ -18,6 +18,9 @@ dotfiles:
   f_bashrc:
     src: bashrc
     dst: ~/.bashrc
+  f_dunstrc.template:
+    src: config/dunst/dunstrc.template
+    dst: ~/.config/dunst/dunstrc.template
 profiles:
   shallot:
     dotfiles:
@@ -26,3 +29,4 @@ profiles:
     - f_config.rasi
     - f_theme.rasi
     - f_bashrc
+    - f_dunstrc.template

@@ -1,0 +1,70 @@
+[global]
+    monitor = 0
+    origin = top-right
+    offset = 20x20
+    follow = keyboard
+    indicate_hidden = yes
+    shrink = no
+    transparency = 1
+    padding = 20
+    separator_color = frame
+    sort = yes
+    frame_width = 2
+    idle_threshold = 30
+    corner_radius = 15
+    font = Iosevka Nerd Font Mono 10
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    show_age_threshold = 45
+    word_wrap = yes
+    ellipsize = start
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+    icon_position = right
+    max_icon_size = 36
+    icon_path = /usr/share/icons/Papirus/symbolic/status/:/usr/share/icons/Papirus-Dark/16x16/status:/usr/share/icons/Papirus-Dark/16x16/devices
+    
+    height = 300
+    width = 200
+
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    startup_notification = false
+    verbosity = mesg
+
+    mouse_left_click = close_current
+    mouse_middle_click = do_action
+    mouse_right_click = close_all
+
+[experimental]
+    per_monitor_dpi = false
+
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+    history = ctrl+ampersand
+    context = ctrl+shift+period
+
+[urgency_low]
+    background = "{background}"
+    foreground = "{onBackground}"
+    timeout = 10
+    frame_color = "{tertiaryContainer}"
+
+[urgency_normal]
+    background = "{background}"
+    foreground = "{onBackground}"
+    timeout = 10
+    frame_color = "{secondaryContainer}"
+
+[urgency_critical]
+    background = "{background}"
+    foreground = "{onBackground}"
+    timeout = 0
+    frame_color = "{error}"
+
+# vim: ft=cfg
