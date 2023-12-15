@@ -1,0 +1,5 @@
+Include private.config
+Host *
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes

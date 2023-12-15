@@ -24,6 +24,9 @@ dotfiles:
   f_hyprland.conf:
     src: config/hypr/hyprland.conf
     dst: ~/.config/hypr/hyprland.conf
+  f_config:
+    src: ssh/config
+    dst: ~/.ssh/config
 profiles:
   shallot:
     dotfiles:
@@ -34,3 +37,4 @@ profiles:
     - f_bashrc
     - f_dunstrc.template
     - f_hyprland.conf
+    - f_config
