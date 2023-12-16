@@ -21,3 +21,7 @@ Dotfiles for my desktop, running Gentoo with Hyprland, managed by dotdrop
 * RAM: 64G
 * Storage: WD Black SN770 NVMe SSD
 
+### Screenshots
+
+![Screenshot](screenshots/neofetch.png)
+
