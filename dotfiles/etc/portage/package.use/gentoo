@@ -1,9 +1,6 @@
 # Cups
 net-print/cups zeroconf
 
-# Clutter
-media-libs/clutter egl
-
 # Firefox
 media-libs/libsdl2 gles2
 
