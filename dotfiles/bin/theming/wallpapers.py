@@ -8,7 +8,7 @@ from subprocess import DEVNULL, Popen
 import urllib
 from random import randint
 from shutil import copyfile
-from os import environ, fork, listdir, mkdir, system
+from os import environ, listdir, mkdir, system
 from os.path import exists, dirname
 from hashlib import sha256
 from os.path import dirname, realpath
@@ -23,7 +23,7 @@ from lib.checks import check_inet
 from lib.logger import error, info
 from psutil import process_iter
 
-def set_wall(wallpath="/tmp/wallpaper.png"):
+def set_wall(wallpath="/tmp/wallpaper.jpg"):
     for process in process_iter():
         if process.name() == "swaybg":
             try:
@@ -72,7 +72,7 @@ else:
         with urllib.request.urlopen('http://source.unsplash.com/1920x1080/?wallpaper') as res:
             resbytes = res.read()
             wallhash = sha256(resbytes).hexdigest()
-            dest += f"{wallhash}.png"
+            dest += f"{wallhash}.jpg"
             open(dest, 'wb').write(resbytes)
     except Exception as e:
         error(f"Can't download wallpaper from unsplash! Error: {e}", "WALLPAPERS")
@@ -85,8 +85,8 @@ else:
     if not exists(walldestpath):
         mkdir(walldestpath)
 
-    copyfile(dest, f"{walldestpath}/{wallhash}.png")
-    set_scheme(f"{walldestpath}/{wallhash}.png")
+    copyfile(dest, f"{walldestpath}/{wallhash}.jpg")
+    set_scheme(f"{walldestpath}/{wallhash}.jpg")
 
 # Call the rest of scripts that generate themes
 load_themes_d()
