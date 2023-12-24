@@ -34,6 +34,7 @@ app-portage/eix
 app-portage/gentoolkit
 app-portage/mirrorselect
 app-portage/portage-utils
+app-portage/pycargoebuild
 app-shells/fish
 app-shells/pwsh-bin
 dev-java/openjdk-bin:17
