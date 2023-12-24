@@ -21,6 +21,7 @@ app-misc/corectrl
 app-misc/ddcutil
 app-misc/hexto256
 app-misc/jq
+app-misc/materugen
 app-misc/neofetch
 app-misc/openrgb
 app-misc/solaar
