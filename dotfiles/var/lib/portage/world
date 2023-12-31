@@ -26,6 +26,7 @@ app-misc/neofetch
 app-misc/openrgb
 app-misc/solaar
 app-misc/tmux
+app-mobilephone/heimdall
 app-mobilephone/scrcpy
 app-office/drawio-desktop-bin
 app-office/joplin-bin
