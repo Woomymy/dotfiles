@@ -63,6 +63,13 @@ games-util/game-device-udev-rules
 # Syncthing
 net-p2p/syncthing
 
+# Telegram
+dev-cpp/cppgir
+dev-cpp/expected-lite
+media-libs/libtgvoip
+media-libs/tg_owt
+net-im/telegram-desktop
+
 # USBIp
 net-misc/usbip
 
