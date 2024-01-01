@@ -31,8 +31,9 @@ main()
 	apply_blur "${FILE}"
 	add_text "${FILE}"
     
+    pulsemixer --toggle-mute
     swaylock -i "${FILE}"
-    
+    pulsemixer --toggle-mute
     rm "${FILE}"
 
 }
