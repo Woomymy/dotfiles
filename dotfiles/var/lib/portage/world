@@ -39,6 +39,7 @@ app-portage/portage-utils
 app-portage/pycargoebuild
 app-shells/fish
 app-shells/pwsh-bin
+dev-java/maven-bin
 dev-java/openjdk-bin:17
 dev-lang/go
 dev-lang/zig
