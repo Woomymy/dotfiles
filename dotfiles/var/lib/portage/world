@@ -71,6 +71,7 @@ games-fps/xonotic
 games-misc/cowsay
 games-misc/nyancat
 games-util/game-device-udev-rules
+gnome-base/gnome-keyring
 gnome-base/nautilus
 gnome-extra/gnome-calculator
 gnome-extra/gnome-weather
