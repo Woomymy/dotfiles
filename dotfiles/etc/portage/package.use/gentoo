@@ -34,7 +34,7 @@ sys-devel/llvm zstd
 dev-lang/python tk
 
 # Pipewire
-media-video/pipewire sound-server
+media-video/pipewire sound-server gstreamer
 
 # QEMU
 net-misc/spice-gtk usbredir
