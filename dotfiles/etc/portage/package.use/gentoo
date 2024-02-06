@@ -54,7 +54,8 @@ net-misc/remmina rdp
 net-misc/openssh libedit
 
 # System
-sys-apps/systemd cryptsetup gnuefi
+sys-apps/systemd boot cryptsetup gnuefi ukify tpm
+sys-kernel/installkernel uki dracut
 sys-fs/lvm2 lvm
 
 # Telegram
