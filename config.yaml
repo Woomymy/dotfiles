@@ -80,6 +80,9 @@ dotfiles:
   f_binrepos.conf:
     src: etc/portage/binrepos.conf
     dst: /etc/portage/binrepos.conf
+  d_dracut.conf.d:
+    src: etc/dracut.conf.d
+    dst: /etc/dracut.conf.d
 profiles:
   shallot:
     dotfiles:
@@ -108,3 +111,4 @@ profiles:
     - f_world
     - f_linux_config
     - f_binrepos.conf
+    - d_dracut.conf.d
