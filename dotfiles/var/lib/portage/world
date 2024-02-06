@@ -102,6 +102,7 @@ media-sound/gnome-music
 media-sound/pavucontrol
 media-sound/playerctl
 media-sound/pulsemixer
+media-sound/sox
 media-video/obs-studio
 media-video/vlc
 net-analyzer/nmap
