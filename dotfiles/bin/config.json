@@ -3,5 +3,6 @@
   "ping_domain": "kernel.org",
   "ping_proto": "https",
   "theme": "dark",
-  "music_source": "tdesktop"
+  "music_source": "tdesktop",
+  "i2c_displays": [3, 5]
 }
