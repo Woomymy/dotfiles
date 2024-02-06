@@ -114,6 +114,7 @@ net-im/telegram-desktop
 net-libs/nodejs
 net-libs/webkit-gtk
 net-misc/minidlna
+net-misc/remmina
 net-misc/smb4k
 net-misc/tigervnc
 net-p2p/syncthing

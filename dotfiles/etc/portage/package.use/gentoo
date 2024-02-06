@@ -47,6 +47,9 @@ media-libs/libvpx postproc
 # QGnomePlatform
 kde-frameworks/sonnet qml
 
+# Remmina RDP
+net-misc/remmina rdp
+
 # SSH libedit (sftp completion)
 net-misc/openssh libedit
 
