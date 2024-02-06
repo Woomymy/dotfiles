@@ -109,6 +109,7 @@ net-analyzer/speedtest-cli
 net-fs/nfs-utils
 net-fs/samba
 net-im/discord
+net-im/element-desktop-bin
 net-im/session-desktop-bin
 net-im/signal-desktop-bin
 net-im/telegram-desktop
