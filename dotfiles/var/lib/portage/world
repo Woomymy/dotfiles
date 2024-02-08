@@ -108,6 +108,7 @@ media-video/obs-studio
 media-video/vlc
 net-analyzer/nmap
 net-analyzer/speedtest-cli
+net-dns/bind-tools
 net-fs/nfs-utils
 net-fs/samba
 net-im/discord
