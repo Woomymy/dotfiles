@@ -44,9 +44,9 @@ dotfiles:
   d_nvim:
     src: config/nvim
     dst: ~/.config/nvim
-  f_alacritty.yml:
-    src: config/alacritty/alacritty.yml
-    dst: ~/.config/alacritty/alacritty.yml
+  f_alacritty.toml:
+    src: config/alacritty/alacritty.toml
+    dst: ~/.config/alacritty/alacritty.toml
   d_repos.conf:
     src: etc/portage/repos.conf
     dst: /etc/portage/repos.conf
@@ -99,7 +99,7 @@ profiles:
     - d_waybar
     - f_profile
     - d_nvim
-    - f_alacritty.yml
+    - f_alacritty.toml
     - d_repos.conf
     - f_make.conf
     - d_env
