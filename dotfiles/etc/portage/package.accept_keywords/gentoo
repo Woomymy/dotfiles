@@ -44,6 +44,9 @@ gui-wm/hyprland-contrib
 # Hyperpicker
 gui-apps/hyprpicker
 
+# Joplin
+app-office/joplin-desktop
+
 # OBS
 media-video/obs-studio
 

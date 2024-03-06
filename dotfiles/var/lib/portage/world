@@ -33,7 +33,7 @@ app-misc/tmux
 app-mobilephone/heimdall
 app-mobilephone/scrcpy
 app-office/drawio-desktop-bin
-app-office/joplin-bin
+app-office/joplin-desktop
 app-office/libreoffice-bin
 app-portage/cpuid2cpuflags
 app-portage/eix
