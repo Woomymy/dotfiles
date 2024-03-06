@@ -132,6 +132,7 @@ net-misc/tigervnc
 net-p2p/syncthing
 net-print/cups
 net-print/hplip
+sec-keys/openpgp-keys-woomy
 sys-apps/bat
 sys-apps/cpu-x
 sys-apps/ethtool
