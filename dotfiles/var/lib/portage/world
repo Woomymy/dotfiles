@@ -17,7 +17,9 @@ app-crypt/sbsigntools
 app-editors/neovim
 app-editors/vim
 app-editors/vscode
+app-emulation/cloud-init
 app-emulation/qemu
+app-emulation/vagrant
 app-emulation/virt-manager
 app-eselect/eselect-repository
 app-misc/binwalk

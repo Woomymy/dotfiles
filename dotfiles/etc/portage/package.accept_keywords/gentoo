@@ -84,6 +84,18 @@ net-misc/usbip
 # Use latest dracut
 sys-kernel/dracut
 
+# Vagrant
+dev-ruby/google-protobuf
+dev-ruby/stream
+dev-ruby/pairing_heap
+dev-ruby/ipaddr
+dev-ruby/vagrant_cloud
+dev-ruby/rgl
+dev-ruby/hashicorp-checkpoint
+dev-ruby/grpc
+dev-ruby/googleapis-common-protos-types
+app-emulation/vagrant
+
 # VSCode
 app-editors/vscode
 
