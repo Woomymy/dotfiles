@@ -64,6 +64,7 @@ sys-fs/lvm2 lvm
 # Telegram
 media-video/ffmpeg vpx opus
 sys-libs/zlib minizip
+net-im/telegram-desktop qt6 qt6-imageformats
 
 # Waybar
 gui-apps/waybar mpris tray
