@@ -42,6 +42,7 @@ app-office/libreoffice-bin
 app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/gentoolkit
+app-portage/livecheck
 app-portage/mirrorselect
 app-portage/portage-utils
 app-portage/pycargoebuild
