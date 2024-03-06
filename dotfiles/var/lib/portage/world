@@ -1,4 +1,6 @@
 acct-group/i2c
+app-admin/ansible
+app-admin/ansible-lint
 app-admin/keepassxc
 app-admin/sudo
 app-admin/system-config-printer
