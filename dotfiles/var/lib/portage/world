@@ -11,6 +11,9 @@ app-benchmarks/hyperfine
 app-containers/docker
 app-containers/docker-buildx
 app-containers/docker-compose
+app-crypt/efitools
+app-crypt/sbctl
+app-crypt/sbsigntools
 app-editors/neovim
 app-editors/vim
 app-editors/vscode
