@@ -97,7 +97,6 @@ media-fonts/inter-font
 media-fonts/iosevka-nerd-font
 media-fonts/noto-emoji
 media-fonts/terminus-font
-media-gfx/displaycal-py3
 media-gfx/gimp
 media-gfx/imagemagick
 media-sound/alsa-utils
